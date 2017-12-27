@@ -1,8 +1,5 @@
 <s:tag name="jquery:3" description="Include the latest JQuery 3" 
        url="https://developers.google.com/speed/libraries/#jquery">
-    <s:if true="{{@version}} {{=}} 3"><s:set var="@version">3.2.1</s:set></s:if>
-    <s:if true="{{@version}} {{=}} 2"><s:set var="@version">2.2.4</s:set></s:if>
-    <s:if true="{{@version}} {{=}} 1"><s:set var="@version">1.12.4</s:set></s:if>
     <s:head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </s:head>
